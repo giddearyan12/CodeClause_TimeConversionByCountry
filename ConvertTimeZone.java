@@ -4,6 +4,7 @@ public class ConvertTimeZone
 {
     public static void main(String[] args)
     {
+        System.out.println("This my Output");
         String Format="dd-M-yyyy hh:mm:ss";
         SimpleDateFormat dateformat=new SimpleDateFormat(Format);
         Date dt=new Date();
